@@ -1,0 +1,25 @@
+| Variable | Label | Description |
+| --- | --- | --- |
+| YEAR | Census year | YEAR reports the four-digit year when the household was enumerated or included in the census, the ACS, and the PRCS. |
+| SAMPLE | IPUMS sample identifier | SAMPLE identifies the IPUMS sample from which the case is drawn. Each sample receives a unique 6-digit code |
+| SERIAL | Household serial number | SERIAL is an identifying number unique to each household record in a given sample. |
+| CBSERIAL | Original Census Bureau household serial number | CBSERIAL is the unique, original identification number assigned to each household record in a given sample by the Census Bureau. |
+| HHWT | Household weight | HHWT indicates how many households in the U.S. population are represented by a given household in an IPUMS sample. |
+| CLUSTER | Household cluster for variance estimation | CLUSTER is designed for use with STRATA in Taylor series linear approximation for correction of complex sample design characteristics. |
+| STRATA | Household strata for variance estimation | STRATA is designed for use with CLUSTER in Taylor series linear approximation for correction of complex sample design characteristics. |
+| GQ | Group quarters status | GQ classifies all housing units as falling into one of three main categories: households, group quarters, or vacant units. |
+| PERNUM | Person number in sample unit | PERNUM numbers all persons within each household consecutively in the order in which they appear on the original census or survey form. When combined with SAMPLE and SERIAL, PERNUM uniquely identifies each person within the IPUMS. |
+| PERWT | Person weight | PERWT indicates how many persons in the U.S. population are represented by a given person in an IPUMS sample. |
+| SCHOOL | School attendance | SCHOOL indicates whether the respondent attended school during a specified period. |
+| EDUC | Educational attainment (general version) | EDUC indicates respondents' educational attainment, as measured by the highest year of school or degree completed. |
+| EDUCD | Educational attainment (detailed version) | EDUC indicates respondents' educational attainment, as measured by the highest year of school or degree completed. |
+| DEGFIELD | Field of degree (general version) | DEGFIELD reports the field in which the person received a Bachelor's degree, if the person holds a Bachelor's degree. |
+| DEGFIELDD | Field of degree (detailed version) | DEGFIELD reports the field in which the person received a Bachelor's degree, if the person holds a Bachelor's degree. |
+| DEGFIELD2 | Field of degree (2) (general version) | DEGFIELD2 reports the second field in which the person received a Bachelor's degree, if the person holds a Bachelor's degree in a second field. |
+| DEGFIELD2D | Field of degree (2) (detailed version) | DEGFIELD2 reports the second field in which the person received a Bachelor's degree, if the person holds a Bachelor's degree in a second field. |
+| EMPSTAT | Employment status (general version) | EMPSTAT indicates whether the respondent was a part of the labor force -- working or seeking work -- and, if so, whether the person was currently unemployed. |
+| EMPSTATD | Employment status (detailed version) | EMPSTAT indicates whether the respondent was a part of the labor force -- working or seeking work -- and, if so, whether the person was currently unemployed. |
+| OCC | Occupation | OCC reports the person's primary occupation, coded into a contemporary census classification scheme |
+| INCTOT | Total personal income | INCTOT reports each respondent's total pre-tax personal income or losses from all sources for the previous year. |
+| INCWAGE | Wage and salary income | INCWAGE reports each respondent's total pre-tax wage and salary income - that is, money received as an employee - for the previous year.  |
+| INCWAGE_CPIU_2010 | Wage and salary income (standardized using CPIU_2010) | INCWAGE reports each respondent's total pre-tax wage and salary income - that is, money received as an employee - for the previous year. |
