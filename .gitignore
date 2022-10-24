@@ -129,4 +129,3 @@ dmypy.json
 .pyre/
 
 # Ignore large datasets
-college_majors/data/college-majors-ipums-acs.zip

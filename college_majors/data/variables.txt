@@ -10,6 +10,7 @@
 | GQ | Group quarters status | GQ classifies all housing units as falling into one of three main categories: households, group quarters, or vacant units. |
 | PERNUM | Person number in sample unit | PERNUM numbers all persons within each household consecutively in the order in which they appear on the original census or survey form. When combined with SAMPLE and SERIAL, PERNUM uniquely identifies each person within the IPUMS. |
 | PERWT | Person weight | PERWT indicates how many persons in the U.S. population are represented by a given person in an IPUMS sample. |
+| AGE | Age | AGE reports the person's age in years as of the last birthday. |
 | SCHOOL | School attendance | SCHOOL indicates whether the respondent attended school during a specified period. |
 | EDUC | Educational attainment (general version) | EDUC indicates respondents' educational attainment, as measured by the highest year of school or degree completed. |
 | EDUCD | Educational attainment (detailed version) | EDUC indicates respondents' educational attainment, as measured by the highest year of school or degree completed. |
