@@ -129,3 +129,4 @@ dmypy.json
 .pyre/
 
 # Ignore large datasets
+college_majors/data/test_data
